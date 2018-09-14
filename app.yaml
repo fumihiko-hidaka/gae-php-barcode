@@ -1,0 +1,8 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+service: gae-php-barcode
+
+handlers:
+- url: .*
+  script: barcode.php
